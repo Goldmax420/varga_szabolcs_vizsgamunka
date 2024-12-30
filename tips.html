@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tippek és trükkök a The Binding of Isaac játékhoz.">
+    <meta name="keywords" content="Binding of Isaac, tippek, trükkök, játék tippek">
+    <meta name="author" content="A neved">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tips.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <title>Tippek és Trükkök</title>
+</head>
+<body>
+    <header>
+        <h1>Tippek és Trükkök</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="tips.html" class="active">Tippek</a></li>
+                <li><a href="contact.html">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="tips-container">
+        <section class="tips-cover">
+            <h2 class="headline">Hasznos tárgyak és hatásaik</h2>
+            <div class="image-gallery">
+                <img src="img/leftisaac.gif" alt="left image" class="center-image">
+                <img src="img/centerisaac.gif" alt="left image" class="center-image">
+                <img src="img/rightisaac.gif" alt="left image" class="center-image">
+            </div>
+            <table class="center-table">
+                <thead>
+                    <tr>
+                        <th>Tárgy</th>
+                        <th>Hatás</th>
+                        <th>Ajánlás</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="img/brimstone.png.webp" alt="Brimstone"> Brimstone</td>
+                        <td>Fő támadás helyett lézersugár</td>
+                        <td>Kihagyhatatlan erősítésekhez</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/holy-mantle.png" alt="Holy Mantle"> Holy Mantle</td>
+                        <td>Egy ütést blokkol körönként</td>
+                        <td>Túléléshez ideális</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/guppy.png" alt="Guppy"> Guppy Transformation</td>
+                        <td>Repülés és legyek generálása</td>
+                        <td>Kombinálható más tárgyakkal</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/magic-mushroom.png" alt="Magic Mushroom"> Magic Mushroom</td>
+                        <td>+1 HP, minden stat növelése és sebzés megduplázása a szobában.</td>
+                        <td>Az egyik legjobb tárgy a játékban! Szinte minden helyzetben hasznos.</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/sacred-heart.png" alt="Sacred Heart"> Sacred Heart</td>
+                        <td>+1 HP, lövések automatikus célzása, sebzés +230%-kal növekszik.</td>
+                        <td>Kiemelkedően hasznos boss harcokhoz és hosszabb pályákhoz. Lassabb lövedékekkel kombináld!</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/the-mind.png" alt="The Mind"> The Mind</td>
+                        <td>Az összes szoba feltárása a térképen.</td>
+                        <td>Kiváló választás, ha a pályák gyors befejezése a cél.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Véletlenszerű Tipp</h2>
+            <button id="randomTipButton" class="isaac-btn">Kattints egy tippre!</button>
+            <p id="randomTip"></p>
+        </section>
+
+        <section class="tips">
+            <h2>Tippek a játékmenethez</h2>
+            <ul>
+                <li> <p>Használj bombákat titkos szobák felfedezésére.</p>
+                    <img src="img/isaacbomb.gif" alt="bomb-gif">
+                </li>
+                    
+                <li> <p>Fontos a karaktered statisztikáinak figyelemmel követése.</p>
+                    <img src="img/isaacstats.gif" alt="stat-gif">
+                </li>
+                <li> <p>Tartsd észben: nem minden erős tárgy hasznos minden szituációban!</p>
+                    <img src="img/isactip.gif" alt="tip-gif">
+                </li>
+            </ul>
+        </section>
+
+        <section class="bosses">
+            <div class="container">
+                <h2>Legnehezebb Boss-ok</h2>
+                <ul>
+                    <li> <p><strong>Delirium:</strong> Véletlenszerű támadásokkal és formákkal nehezíti meg a harcot.</p>
+                        <img src="img/delirium.png" alt="Boss1">
+                    </li>
+                    <li> <p><strong>Hush:</strong> Két szakaszból álló, hosszú boss harc, amely támadási sebességet követel.</p>
+                        <img src="img/hush.png" alt="Boss2">
+                    </li>
+                    <li> <p><strong>The Lamb:</strong> Erős támadások és gyors mozgás jellemzik.</p>
+                        <img src="img/lamb.png" alt="boss3">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Varga Szabolcs. Minden jog fenntartva.</p>
+    </footer>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

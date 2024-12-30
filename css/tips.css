@@ -1,0 +1,132 @@
+.tips-container {
+    background-image: url(../img/isaacmain3.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.image-gallery {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.center-image {
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+}
+
+.center-table {
+    margin: 0 auto;
+    width: 80%;  
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+table th {
+    background-color: #555;
+    color: #ff6565;
+    font-size: 30px;
+}
+
+table td {
+    background-color: #333;
+    color: #fff;
+}
+
+table img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+table tbody tr:hover {
+    background-color: #444;
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out, background-color 0.3s;
+    border: 3px solid black;
+}
+
+.isaac-btn {
+    background-color: #ff4d4d; 
+    color: white;
+    border: 3px solid #c70000; 
+    padding: 12px 24px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    font-family: 'Press Start 2P', cursive; 
+    text-transform: uppercase;
+}
+
+.isaac-btn:hover {
+    background-color: #ff6666; 
+    border-color: #ff0000; 
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.7); 
+}
+
+.isaac-btn:active {
+    transform: scale(0.95); 
+    background-color: #ff3333; 
+}
+
+#randomTipButton {
+    display: block;
+    margin: 20px auto; 
+}
+
+
+#randomTip {
+    margin-top: 10px;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffcccb;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cover .headline {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.tips li {
+    font-size: 30px;
+    margin-bottom: 22px;
+}
+
+.bosses img {
+    width: 350px;
+    height: auto;
+}
+
+.bosses p {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.bosses h2 {
+    margin-top: 100px;
+    color: #c70000;
+}
+
+@media only screen and (max-width:1024px) {
+    .tips img, .bosses img {
+        width: 100%;
+    }
+
+    .center-table {
+        width: 100%;
+        overflow: scroll;
+    }
+}
